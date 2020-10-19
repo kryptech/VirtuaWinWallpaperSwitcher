@@ -1,0 +1,24 @@
+{
+  "name": "virtuawinwallpaperswitcher",
+  "version": "1.0.0",
+  "description": "Wallpaper switcher utility for VirtuaWin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runNASA": "node nasa.js",
+    "runFlickr": "node flickr.js",
+    "runPixabay": "node pixabay.js"
+  },
+  "keywords": [
+    "VirtuaWin",
+    "wallpaper",
+    "Windows",
+    "desktop"
+  ],
+  "author": "Chris M. Sissons",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.9.3"
+  },
+  "devDependencies": {}
+}
